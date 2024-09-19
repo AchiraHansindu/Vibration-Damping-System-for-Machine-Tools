@@ -39,22 +39,38 @@ This project was aimed to design and develop an industry level solution. Accordi
 <div align="center">
     <img src="https://github.com/user-attachments/assets/c27a9241-55ca-4864-bf96-3e056a705f44" width="600" alt="Bare PCB">
     <br>
-    <em>Custom Built Shock Absorber</em>
+    <em>Bare PCB</em>
 </div>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/ca1feeac-d9b3-4f63-96ca-9b5517b61e1b" width="600" alt="Soldered PCB">
+    <img src="https://github.com/user-attachments/assets/db34daf3-b839-4bb2-abd9-f1310d08f359" width="600" alt="Soldered PCB">
     <br>
-    <em>Custom Built Shock Absorber</em>
+    <em>Soldered PCB</em>
 </div>
 
+PCB design files and schematics can be found [here](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/tree/main/PCB%20Files).
+
 ## Firmware Design
-- **Microcontroller Programming:** The ATmega328P-AU is programmed in C++ to manage tasks such as IO port manipulation, UART, and I2C communication.
-- **Data Handling:** Implements routines to capture and transmit data from the MPU6050 accelerometer at precise intervals, crucial for real-time vibration analysis.
+- **Microcontroller Programming:** The microcontroller in programmed in C++, using register level programming such as IO port manipulation, UART and I2C communication, sampling accelerometer reading with given sampling frequency.
+
+The code can be found [here](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/tree/main/Microcontroller%20AVR%20code).
 
 ## Enclosure Design
-- **Construction:** Comprises two parts; the Main Controller Unit and the Accelerometer Holding Part, both designed in SOLIDWORKS and produced via 3D printing.
-- **Functionality:** Ensures all components are securely housed and the accelerometer is accurately positioned to capture relevant data.
+- Comprises two parts; the Main Controller Unit and the Accelerometer Holding Part, both designed in SOLIDWORKS and produced via 3D printing.
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/edb97cfd-28ad-49bf-8856-6f483181dbb9" width="600" alt="Main Controller Unit">
+    <br>
+    <em>Main Controller Unit</em>
+</div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/48d49e3d-76d5-49b3-a511-4c8556a7a3f4" width="600" alt="Accelerometer Holding Part">
+    <br>
+    <em>Accelerometer Holding Part</em>
+</div>
+
+Enclosure design files can be found [here](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/tree/main/Enclosure%20Design-SolidWorks).
 
 ## Software Design
 - **Data Acquisition UI:** A user-friendly interface allows for real-time interaction with the data acquisition system.
