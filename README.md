@@ -15,13 +15,13 @@ This project was aimed to design and develop an industry level solution. Accordi
 - **Spring and Damper System:** Custom designed spring and damper system to the specific vibration characteristics of the machinery.
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/dfb7ba60-1013-441c-850b-dc857f559b13" width="600" alt="Data Acquisition System">
+    <img src="https://github.com/user-attachments/assets/dfb7ba60-1013-441c-850b-dc857f559b13" width="400" alt="Data Acquisition System">
     <br>
     <em>Data Acquisition System</em>
 </div>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/e375dc97-59d5-4b40-9fea-90be2f2c5bfc" width="600" alt="Data Acquisition System">
+    <img src="https://github.com/user-attachments/assets/e375dc97-59d5-4b40-9fea-90be2f2c5bfc" width="400" alt="Data Acquisition System">
     <br>
     <em>Custom Built Shock Absorber</em>
 </div>
@@ -37,13 +37,13 @@ This project was aimed to design and develop an industry level solution. Accordi
 - **Design Philosophy:** Special attention has been given to the routing of power lines to reduce voltage drops and ensure signal integrity.
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/c27a9241-55ca-4864-bf96-3e056a705f44" width="600" alt="Bare PCB">
+    <img src="https://github.com/user-attachments/assets/c27a9241-55ca-4864-bf96-3e056a705f44" width="400" alt="Bare PCB">
     <br>
     <em>Bare PCB</em>
 </div>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/db34daf3-b839-4bb2-abd9-f1310d08f359" width="600" alt="Soldered PCB">
+    <img src="https://github.com/user-attachments/assets/db34daf3-b839-4bb2-abd9-f1310d08f359" width="400" alt="Soldered PCB">
     <br>
     <em>Soldered PCB</em>
 </div>
@@ -84,6 +84,16 @@ The Front-End Software for the Vibration Data Acquisition System streamlines int
 - **Efficient Data Management:** After collection, data can be saved through a dialog that captures file details and confirms the save location.
 
 This intuitive interface supports efficient data handling and simplifies the user's interaction with the system.
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/19c372fd-04b6-4320-bfaa-2f5cad3edcd4" width="300" alt="Screen for selecting the available COM port and baud rate." style="display:inline-block;">
+    <img src="https://github.com/user-attachments/assets/b09d611a-c0bc-45be-a56a-b72548f90c7e" width="300" alt="Screen for controlling data collection." style="display:inline-block;">
+    <br>
+    <em>Screen for selecting the available COM port and baud rate.</em>
+    <em>Screen for controlling data collection.</em>
+</div>
+
+The code can be found [here](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/tree/main/UI%20for%20Data%20Acquisition%20System).
 
 - **MATLAB Application:** Processes and analyzes vibration data, utilizing FFT analysis to derive actionable insights.
 
