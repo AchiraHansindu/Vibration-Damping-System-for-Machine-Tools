@@ -59,13 +59,13 @@ The code can be found [here](https://github.com/AchiraHansindu/Vibration-Damping
 - Comprises two parts; the Main Controller Unit and the Accelerometer Holding Part, both designed in SOLIDWORKS and produced via 3D printing.
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/edb97cfd-28ad-49bf-8856-6f483181dbb9" width="600" alt="Main Controller Unit">
+    <img src="https://github.com/user-attachments/assets/edb97cfd-28ad-49bf-8856-6f483181dbb9" width="400" alt="Main Controller Unit">
     <br>
     <em>Main Controller Unit</em>
 </div>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/48d49e3d-76d5-49b3-a511-4c8556a7a3f4" width="600" alt="Accelerometer Holding Part">
+    <img src="https://github.com/user-attachments/assets/48d49e3d-76d5-49b3-a511-4c8556a7a3f4" width="400" alt="Accelerometer Holding Part">
     <br>
     <em>Accelerometer Holding Part</em>
 </div>
@@ -73,7 +73,18 @@ The code can be found [here](https://github.com/AchiraHansindu/Vibration-Damping
 Enclosure design files can be found [here](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/tree/main/Enclosure%20Design-SolidWorks).
 
 ## Software Design
-- **Data Acquisition UI:** A user-friendly interface allows for real-time interaction with the data acquisition system.
+
+### Front-End Software: UI for Data Acquisition System
+
+The Front-End Software for the Vibration Data Acquisition System streamlines interaction between the DAQ device and the user. Developed using Python and PyQt5, the application features a user-friendly graphical interface for starting, stopping, and saving vibration data.
+
+#### Key Features:
+- **Initial Setup:** Users begin at a launch screen and proceed to select communication settings like COM port and baud rate.
+- **Data Collection Controls:** Provides options to start and stop the recording and to save the captured data with user-defined settings.
+- **Efficient Data Management:** After collection, data can be saved through a dialog that captures file details and confirms the save location.
+
+This intuitive interface supports efficient data handling and simplifies the user's interaction with the system.
+
 - **MATLAB Application:** Processes and analyzes vibration data, utilizing FFT analysis to derive actionable insights.
 
 ## System Integration
