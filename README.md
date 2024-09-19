@@ -11,19 +11,22 @@ This project was aimed to design and develop an industry level solution. Accordi
 
 ## Components
 - **Data Acquisition System:** Utilizes accelerometers to measure vibrations and a microcontroller to process data.
-- **Vibration Analysis Software:** MATLAB scripts for processing and analyzing vibration data.
+- **Vibration Analysis Software:** MATLAB scripts and an app designed for processing and analyzing vibration data.
 - **Spring and Damper System:** Custom-built hardware to physically damp vibrations.
 
-## ![Data Acquisition System](https://github.com/user-attachments/assets/dfb7ba60-1013-441c-850b-dc857f559b13)
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/dfb7ba60-1013-441c-850b-dc857f559b13" width="600" alt="Data Acquisition System">
+</div>
+
 ## Features
-- **Real-time Vibration Monitoring:** Leverages a high-performance MPU6050 accelerometer to monitor vibrations in real time.
-- **FFT Analysis:** Implements Fast Fourier Transform (FFT) for detailed frequency analysis.
+- **Real-time Vibration Monitoring:** Leverages a MPU6050 accelerometer to monitor vibrations in real time.
+- **FFT Analysis:** Implements Fast Fourier Transform (FFT) for detailed frequency analysis to calculate the desing parameters for the shock absorber system.
 - **Shock Absorber Efficiency Measurement:** Compares vibration data before and after shock absorber implementation to evaluate efficiency.
 
 ## Hardware
 - **Accelerometer (MPU6050):** Measures acceleration in three axes.
 - **Microcontroller (ATmega2560):** Manages data acquisition from the accelerometer.
-- **Shock Absorber System:** Custom designed springs and dampers tailored to the specific vibration characteristics of the machinery.
+- **Shock Absorber System:** Custom designed spring and damper system to the specific vibration characteristics of the machinery.
 
 ## Software
 - **Data Acquisition and Processing:** Scripts and programs for acquiring and processing vibration data.
