@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=Main.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=MCU.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=POWER SUPPLY|SchDesignator=POWER SUPPLY|FileName=Power Circuit.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=Power Circuit.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=SENSOR INPUTS|SchDesignator=SENSOR INPUTS|FileName=Sensor Inputs.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Sensor Inputs.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=USB PORT|SchDesignator=USB PORT|FileName=USB.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=USB.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

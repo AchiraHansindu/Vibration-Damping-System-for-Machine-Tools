@@ -1,0 +1,49 @@
+Removed Pin From Net: NetName=+5 V Pin=C8-2
+Removed Pin From Net: NetName=+5 V Pin=C9-1
+Removed Pin From Net: NetName=+5 V Pin=J2-1
+Removed Pin From Net: NetName=+5 V Pin=R4-2
+Removed Pin From Net: NetName=+5 V Pin=U2-4
+Removed Pin From Net: NetName=+5 V Pin=U2-20
+Added Component: Designator=P2(691322110002)
+Add component (AddParameter): Name = "Color"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "7.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "3.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "10.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "18818346"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Levels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions Per Level"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "3.5052mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "300V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "300V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "8.1mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 V Pin=P2-1
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=C9-1
+Added Pin To Net: NetName=NetC8_2 Pin=J2-1
+Added Pin To Net: NetName=NetC8_2 Pin=P2-2
+Added Pin To Net: NetName=NetC8_2 Pin=R4-2
+Added Pin To Net: NetName=NetC8_2 Pin=U2-4
+Added Pin To Net: NetName=NetC8_2 Pin=U2-20
+Added Net: Name=NetC8_2
+Added Member To Class: ClassName=MCU Member=Component C7 GRM31A7U3D220JW31D
+Added Member To Class: ClassName=USB PORT Member=Component D1 HSMG-C150
+Added Member To Class: ClassName=USB PORT Member=Component P2 5 V
+Added Member To Class: ClassName=USB PORT Member=Component R2 CHP1206AFX-1001ELF
+Added Member To Class: ClassName=USB PORT Member=Component R3 CHP1206AFX-1001ELF
+Added Member To Class: ClassName=USB PORT Member=Component R4 CHP1206AFX-1001ELF
+Added Member To Class: ClassName=MCU Member=Component U1 ATmega328P-AU

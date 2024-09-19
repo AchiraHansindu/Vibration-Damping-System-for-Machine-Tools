@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=+5 V Pin=C11-1
+Change Component Footprint: Designator=C11 Old Footprint=FP-RAD-TH-D_10_0_5-L_16_1-MFG New Footprint=WCAP-HTG5_D6.3H8
+Change Component Footprint: Designator=C12 Old Footprint=FP-RAD-TH-D_10_0_5-L_16_1-MFG New Footprint=WCAP-HTG5_D6.3H8
+Change Component Comment : Designator=C11 Old Comment=1ufF New Comment=870575873001
+Change Component Comment : Designator=C12 Old Comment=10uF New Comment=870575873001
+Change Managed Component Library Link : Designator=C11 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=B305FDA1-2904-4E98-92AB-2D55C27E7146 New ItemGUID=2B1E8925-512F-4630-830C-3F29DDF45AA1 Old RevisionGUID=89A1F28C-67F7-44CA-9922-CE41C0BD895E New RevisionGUID=CFE857CC-EFC1-4715-9655-70BA0F0DEFFF
+Change Managed Component Library Link : Designator=C12 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=B305FDA1-2904-4E98-92AB-2D55C27E7146 New ItemGUID=2B1E8925-512F-4630-830C-3F29DDF45AA1 Old RevisionGUID=89A1F28C-67F7-44CA-9922-CE41C0BD895E New RevisionGUID=CFE857CC-EFC1-4715-9655-70BA0F0DEFFF
+Change component parameters: Designator = "C11" ("C11"); Footprint = "FP-RAD-TH-D_10_0_5-L_16_1-MFG"; UniqueID = "\TJUMWSEI\UOVUNGXT" ("\TJUMWSEI\UOVUNGXT")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "6.3mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "100mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Hole Diameter"; Value = "900µm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Leakage Current"; Value = "6.3µA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "134709123"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Parameter 1"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current"; Value = "1.06A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "63V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12" ("C12"); Footprint = "FP-RAD-TH-D_10_0_5-L_16_1-MFG"; UniqueID = "\TJUMWSEI\DMPNUXOP" ("\TJUMWSEI\DMPNUXOP")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "6.3mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "100mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Hole Diameter"; Value = "900µm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Leakage Current"; Value = "6.3µA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "134709123"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current"; Value = "1.06A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "63V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 V Pin=C12-1
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=P1-1
+Added Pin To Net: NetName=NetC11_1 Pin=U3-1
+Added Net: Name=NetC11_1
+Added Member To Class: ClassName=MCU Member=Component C6 GRM31A7U3D220JW31D

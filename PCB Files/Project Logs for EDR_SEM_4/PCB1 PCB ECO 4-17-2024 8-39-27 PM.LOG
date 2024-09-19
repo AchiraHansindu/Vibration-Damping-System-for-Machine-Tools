@@ -1,0 +1,59 @@
+Change Component Footprint: Designator=P2 Old Footprint=691322110002 New Footprint=691322110002
+Added Component: Designator=J3(FP-90131-0763-MFG)
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Country of Origin"; Value = "SG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "9.65mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Polyester"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "5GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Production"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Lifecycle Status"; Value = "ACTIVE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Glass, Polyester"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "655468"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Poles"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Schedule B"; Value = "8536694040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "350V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (AC)"; Value = "350V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "350V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "350V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_2 Pin=J3-4
+Added Pin To Net: NetName=+5 V Pin=J3-5
+Added Pin To Net: NetName=GND Pin=J3-6
+Change Net Name : Old Net Name=NetC1_2 New Net Name=RESET
+Added Pin To Net: NetName=MISO Pin=J3-2
+Added Pin To Net: NetName=MISO Pin=U1-16
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=J3-1
+Added Pin To Net: NetName=MOSI Pin=U1-15
+Added Net: Name=MOSI
+Added Pin To Net: NetName=SCK Pin=J3-3
+Added Pin To Net: NetName=SCK Pin=U1-17
+Added Net: Name=SCK
+Added Member To Class: ClassName=USB PORT Member=Component C8 GRM31M1X1H104JA01L
+Added Member To Class: ClassName=USB PORT Member=Component C9 GRM31M1X1H104JA01L
+Added Member To Class: ClassName=SENSOR INPUTS Member=Component J1 B5B-XH-AM(LF)(SN)
+Added Member To Class: ClassName=USB PORT Member=Component J2 292303-1
+Added Member To Class: ClassName=MCU Member=Component J3 90131-0763
+Added Member To Class: ClassName=USB PORT Member=Component P2 5 V
+Added Member To Class: ClassName=USB PORT Member=Component R4 CHP1206AFX-1001ELF
+Added Member To Class: ClassName=USB PORT Member=Component U2 CH340C

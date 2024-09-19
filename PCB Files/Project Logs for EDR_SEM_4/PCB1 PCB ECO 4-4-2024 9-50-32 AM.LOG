@@ -1,0 +1,13 @@
+Change Component Footprint: Designator=J2 Old Footprint=61400413321 New Footprint=61400413321
+Change Component Footprint: Designator=P1 Old Footprint=691322110002 New Footprint=691322110002
+Change Component Footprint: Designator=R2 Old Footprint=RES_RCC1206_VIS New Footprint=RES_RCC1206_VIS
+Change Component Footprint: Designator=R3 Old Footprint=RES_RCC1206_VIS New Footprint=RES_RCC1206_VIS
+Change Component Footprint: Designator=R4 Old Footprint=RES_RCC1206_VIS New Footprint=RES_RCC1206_VIS
+Add Component: Footprint Not Found OMRON-B3F-1000-4_V
+Add Component: Footprint Not Found XTAL_ECS-160-20-4X
+Add Pin To Net: Unknown Pin: Pin SW1-1
+Add Pin To Net: Unknown Pin: Pin Y-1
+Add Pin To Net: Unknown Pin: Pin Y-2
+Add Net: Net with name "GND" already exists
+Add Class Member: Failed to add class member : Component SW1 B3F-1000
+Add Class Member: Failed to add class member : Component Y ECS-160-S-4
