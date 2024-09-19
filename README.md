@@ -190,3 +190,21 @@ For a deeper understanding of our Vibration Damping System, detailed documentati
 2. [Comprehensive Design Document](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/blob/main/Project%20Documents/Design_Document_Vibration_Damping%20System_for_Machine_Tools.pdf) 
 
 Feel free to explore these resources to gain a comprehensive understanding of the project's scope and execution.
+
+## Team Members
+
+- [Achira Hansindu](https://github.com/AchiraHansindu)
+- [Sandaru Liyanaarachchi](https://github.com/Sandaru-Liyanaarachchi)
+
+## Contributions
+
+Contributions are welcome!
+
+- **Bug Fixes:** If you find any bugs or issues, feel free to create an issue or submit a pull request.
+-**Feature Enhancements:** If you have ideas for new features or improvements, don't hesitate to share them.
+
+Feel free to reach out with any questions or suggestions!
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/blob/main/LICENSE).
