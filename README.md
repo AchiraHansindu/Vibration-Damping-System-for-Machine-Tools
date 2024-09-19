@@ -86,14 +86,6 @@ The Front-End Software for the Vibration Data Acquisition System streamlines int
 This intuitive interface supports efficient data handling and simplifies the user's interaction with the system.
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/19c372fd-04b6-4320-bfaa-2f5cad3edcd4" width="300" alt="Screen for selecting the available COM port and baud rate." style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/b09d611a-c0bc-45be-a56a-b72548f90c7e" width="300" alt="Screen for controlling data collection." style="display:inline-block;">
-    <br>
-    <em>Screen for selecting the available COM port and baud rate.</em>
-    <em>Screen for controlling data collection.</em>
-</div>
-
-<div align="center">
     <div style="display: inline-block; margin-right: 20px;">
         <img src="https://github.com/user-attachments/assets/19c372fd-04b6-4320-bfaa-2f5cad3edcd4" width="300" alt="Screen for selecting the available COM port and baud rate.">
         <br>
@@ -105,28 +97,6 @@ This intuitive interface supports efficient data handling and simplifies the use
         <em>Screen for controlling data collection.</em>
     </div>
 </div>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/19c372fd-04b6-4320-bfaa-2f5cad3edcd4" width="300" alt="Screen for selecting the available COM port and baud rate.">
-  <img src="https://github.com/user-attachments/assets/b09d611a-c0bc-45be-a56a-b72548f90c7e" width="300" alt="Screen for controlling data collection.">
-  <br>
-  <em>Screen for selecting the available COM port and baud rate.</em> &nbsp; <em>Screen for controlling data collection.</em>
-</div>
-
-<div align="center">
-  <div style="display:inline-block; margin-right:20px;">
-    <img src="https://github.com/user-attachments/assets/19c372fd-04b6-4320-bfaa-2f5cad3edcd4" width="300" alt="Main Controller Unit">
-    <br>
-    <em>Main Controller Unit</em>
-  </div>
-  <div style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/b09d611a-c0bc-45be-a56a-b72548f90c7e" width="300" alt="Screen for controlling data collection.">
-    <br>
-    <em>Screen for controlling data collection.</em>
-  </div>
-</div>
-
-
 
 The code can be found [here](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/tree/main/UI%20for%20Data%20Acquisition%20System).
 
@@ -142,6 +112,32 @@ The MATLAB Application for Data Analysis enhances the vibration-damping system b
 
 This MATLAB application is a pivotal part of the software design, bridging data acquisition with actionable analysis, thus supporting both the design and evaluation stages of the vibration-damping system.
 
+<div align="center">
+    <div style="display: inline-block; margin-right: 20px;">
+        <img src="https://github.com/user-attachments/assets/54a0099b-00d0-4bf2-aa44-087156967db6" width="300" alt="Window showing FFT for X, Y, and Z axes.">
+        <br>
+        <em>Window showing FFT for X, Y, and Z axes.</em>
+    </div>
+    <div style="display: inline-block;">
+        <img src="https://github.com/user-attachments/assets/af9aeaa6-95bc-4b4e-9ba4-4cb4fb53d04d" width="300" alt="System parameters calculation window.">
+        <br>
+        <em>System parameters calculation window.</em>
+    </div>
+</div>
 
 ## System Integration
-All components are rigorously tested to work cohesively, ensuring the system meets its design specifications and operational requirements.
+
+The following images show some steps of system integration including wiring, assembling.
+
+<div align="center">
+    <div style="display: inline-block; margin-right: 20px;">
+        <img src="https://github.com/user-attachments/assets/c8fd2de1-e171-4a45-b07c-a29f3d4b8648" width="300" alt="">
+        <br>
+        <em></em>
+    </div>
+    <div style="display: inline-block;">
+        <img src="https://github.com/user-attachments/assets/801821f6-650b-4148-aebb-149656b31919" width="300" alt="">
+        <br>
+        <em></em>
+    </div>
+</div>
