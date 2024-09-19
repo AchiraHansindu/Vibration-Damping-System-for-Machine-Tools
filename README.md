@@ -152,7 +152,7 @@ To visually demonstrate the effectiveness of the Vibration Damping System, we ha
 
    <div align="center">
     <a href="URL_TO_VIDEO">
-        <img src="https://github.com/user-attachments/assets/ee4f2407-5420-49cb-84e0-f4201efcc0a8" width="400" alt="FFT after implementing the damper">
+        <img src="https://github.com/user-attachments/assets/478091ad-a99a-40b5-b485-41ef5b800e22" width="400" alt="FFT after implementing the damper">
         <br>
         <em>FFT after implementing the damper</em>
     </a>
@@ -164,7 +164,7 @@ To visually demonstrate the effectiveness of the Vibration Damping System, we ha
 
    <div align="center">
     <a href="URL_TO_VIDEO">
-        <img src="https://github.com/user-attachments/assets/ee4f2407-5420-49cb-84e0-f4201efcc0a8" width="400" alt="FFT after implementing the damper">
+        <img src="https://github.com/user-attachments/assets/1908306d-d9c9-451e-9375-d828b028359c" width="400" alt="FFT after implementing the damper">
         <br>
         <em>FFT after implementing the damper</em>
     </a>
