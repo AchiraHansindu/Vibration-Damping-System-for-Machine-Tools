@@ -12,33 +12,53 @@ This project was aimed to design and develop an industry level solution. Accordi
 ## Components
 - **Data Acquisition System:** Utilizes accelerometers to measure vibrations and a microcontroller to process data.
 - **Vibration Analysis Software:** MATLAB scripts and an app designed for processing and analyzing vibration data.
-- **Spring and Damper System:** Custom-built hardware to physically damp vibrations.
+- **Spring and Damper System:** Custom designed spring and damper system to the specific vibration characteristics of the machinery.
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/dfb7ba60-1013-441c-850b-dc857f559b13" width="600" alt="Data Acquisition System">
+    <br>
+    <em>Data Acquisition System</em>
 </div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/e375dc97-59d5-4b40-9fea-90be2f2c5bfc" width="600" alt="Data Acquisition System">
+    <br>
+    <em>Custom Built Shock Absorber</em>
+</div>
+
 
 ## Features
 - **Real-time Vibration Monitoring:** Leverages a MPU6050 accelerometer to monitor vibrations in real time.
 - **FFT Analysis:** Implements Fast Fourier Transform (FFT) for detailed frequency analysis to calculate the desing parameters for the shock absorber system.
 - **Shock Absorber Efficiency Measurement:** Compares vibration data before and after shock absorber implementation to evaluate efficiency.
 
-## Hardware
-- **Accelerometer (MPU6050):** Measures acceleration in three axes.
-- **Microcontroller (ATmega2560):** Manages data acquisition from the accelerometer.
-- **Shock Absorber System:** Custom designed spring and damper system to the specific vibration characteristics of the machinery.
+## PCB Design
+- **Tools & Software:** Designed with Altium Designer, our 2-layer PCB features the ATmega328P-AU microcontroller and CH340C Serial UART IC, ensuring robust performance and reliable communication.
+- **Design Philosophy:** Special attention has been given to the routing of power lines to reduce voltage drops and ensure signal integrity.
 
-## Software
-- **Data Acquisition and Processing:** Scripts and programs for acquiring and processing vibration data.
-- **MATLAB Analysis Scripts:** For detailed analysis and visualization of the vibrational data.
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/c27a9241-55ca-4864-bf96-3e056a705f44" width="600" alt="Bare PCB">
+    <br>
+    <em>Custom Built Shock Absorber</em>
+</div>
 
-## Usage
-To use this system:
-1. **Setup the hardware** according to the schematics provided in the `Hardware` folder.
-2. **Deploy the software** onto the microcontroller and connect to the data processing unit.
-3. **Run MATLAB scripts** to analyze the recorded data and generate reports.
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/ca1feeac-d9b3-4f63-96ca-9b5517b61e1b" width="600" alt="Soldered PCB">
+    <br>
+    <em>Custom Built Shock Absorber</em>
+</div>
 
-## Installation
-Clone this repository using:
-```bash
-git clone https://github.com/yourgithubusername/vibration-damping-system.git
+## Firmware Design
+- **Microcontroller Programming:** The ATmega328P-AU is programmed in C++ to manage tasks such as IO port manipulation, UART, and I2C communication.
+- **Data Handling:** Implements routines to capture and transmit data from the MPU6050 accelerometer at precise intervals, crucial for real-time vibration analysis.
+
+## Enclosure Design
+- **Construction:** Comprises two parts; the Main Controller Unit and the Accelerometer Holding Part, both designed in SOLIDWORKS and produced via 3D printing.
+- **Functionality:** Ensures all components are securely housed and the accelerometer is accurately positioned to capture relevant data.
+
+## Software Design
+- **Data Acquisition UI:** A user-friendly interface allows for real-time interaction with the data acquisition system.
+- **MATLAB Application:** Processes and analyzes vibration data, utilizing FFT analysis to derive actionable insights.
+
+## System Integration
+All components are rigorously tested to work cohesively, ensuring the system meets its design specifications and operational requirements.
