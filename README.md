@@ -150,25 +150,14 @@ To visually demonstrate the effectiveness of the Vibration Damping System, we ha
 1. **Before Shock Absorber Implementation:**
    - This video showcases the system operating without the shock absorber, highlighting the initial vibration levels and rotation.
 
-   <div align="center">
-    <a href="URL_TO_VIDEO">
-        <img src="https://github.com/user-attachments/assets/478091ad-a99a-40b5-b485-41ef5b800e22" width="400" alt="FFT after implementing the damper">
-        <br>
-        <em>FFT after implementing the damper</em>
-    </a>
-</div>
+   https://github.com/user-attachments/assets/478091ad-a99a-40b5-b485-41ef5b800e22
+   
 
 
 2. **After Shock Absorber Implementation:**
    - This video demonstrates the system with the shock absorber installed, showing a significant reduction in vibrations and rotation.
 
-   <div align="center">
-    <a href="URL_TO_VIDEO">
-        <img src="https://github.com/user-attachments/assets/1908306d-d9c9-451e-9375-d828b028359c" width="400" alt="FFT after implementing the damper">
-        <br>
-        <em>FFT after implementing the damper</em>
-    </a>
-</div>
+   https://github.com/user-attachments/assets/1908306d-d9c9-451e-9375-d828b028359c
 
 
 ### FFT Analysis
