@@ -86,16 +86,15 @@ The Front-End Software for the Vibration Data Acquisition System streamlines int
 This intuitive interface supports efficient data handling and simplifies the user's interaction with the system.
 
 <div align="center">
-    <div style="display: inline-block; margin-right: 20px;">
-        <img src="https://github.com/user-attachments/assets/19c372fd-04b6-4320-bfaa-2f5cad3edcd4" width="300" alt="Screen for selecting the available COM port and baud rate.">
-        <br>
-        <em>Screen for selecting the available COM port and baud rate.</em>
-    </div>
-    <div style="display: inline-block;">
-        <img src="https://github.com/user-attachments/assets/b09d611a-c0bc-45be-a56a-b72548f90c7e" width="300" alt="Screen for controlling data collection.">
-        <br>
-        <em>Screen for controlling data collection.</em>
-    </div>
+    <img src="https://github.com/user-attachments/assets/19c372fd-04b6-4320-bfaa-2f5cad3edcd4" width="400" alt="Screen for selecting the available COM port and baud rate.">
+    <br>
+    <em>Screen for selecting the available COM port and baud rate.</em>
+</div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/b09d611a-c0bc-45be-a56a-b72548f90c7e" width="400" alt="Screen for controlling data collection.">
+    <br>
+    <em>Screen for controlling data collection.</em>
 </div>
 
 The code can be found [here](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/tree/main/UI%20for%20Data%20Acquisition%20System).
@@ -113,31 +112,92 @@ The MATLAB Application for Data Analysis enhances the vibration-damping system b
 This MATLAB application is a pivotal part of the software design, bridging data acquisition with actionable analysis, thus supporting both the design and evaluation stages of the vibration-damping system.
 
 <div align="center">
-    <div style="display: inline-block; margin-right: 20px;">
-        <img src="https://github.com/user-attachments/assets/54a0099b-00d0-4bf2-aa44-087156967db6" width="300" alt="Window showing FFT for X, Y, and Z axes.">
-        <br>
-        <em>Window showing FFT for X, Y, and Z axes.</em>
-    </div>
-    <div style="display: inline-block;">
-        <img src="https://github.com/user-attachments/assets/af9aeaa6-95bc-4b4e-9ba4-4cb4fb53d04d" width="300" alt="System parameters calculation window.">
-        <br>
-        <em>System parameters calculation window.</em>
-    </div>
+    <img src="https://github.com/user-attachments/assets/54a0099b-00d0-4bf2-aa44-087156967db6" width="400" alt="Window showing FFT for X, Y, and Z axes.">
+    <br>
+    <em>Window showing FFT for X, Y, and Z axes.</em>
 </div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/af9aeaa6-95bc-4b4e-9ba4-4cb4fb53d04d" width="400" alt="System parameters calculation window.">
+    <br>
+    <em>System parameters calculation window.</em>
+</div>
+
+The code can be found [here](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/tree/main/MATLAB%20Application%20for%20Data%20Analysis).
 
 ## System Integration
 
 The following images show some steps of system integration including wiring, assembling.
 
 <div align="center">
-    <div style="display: inline-block; margin-right: 20px;">
-        <img src="https://github.com/user-attachments/assets/c8fd2de1-e171-4a45-b07c-a29f3d4b8648" width="300" alt="">
-        <br>
-        <em></em>
-    </div>
-    <div style="display: inline-block;">
-        <img src="https://github.com/user-attachments/assets/801821f6-650b-4148-aebb-149656b31919" width="300" alt="">
-        <br>
-        <em></em>
-    </div>
+    <img src="https://github.com/user-attachments/assets/c8fd2de1-e171-4a45-b07c-a29f3d4b8648" width="400" alt="">
+    <br>
+    <em></em>
 </div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/801821f6-650b-4148-aebb-149656b31919" width="400" alt="">
+    <br>
+    <em></em>
+</div>
+
+## Demonstration
+
+To visually demonstrate the effectiveness of the Vibration Damping System, we have included videos and FFT analysis both before and after the implementation of the shock absorber.
+
+### Videos
+
+1. **Before Shock Absorber Implementation:**
+   - This video showcases the system operating without the shock absorber, highlighting the initial vibration levels and rotation.
+
+   <div align="center">
+    <a href="URL_TO_VIDEO">
+        <img src="https://github.com/user-attachments/assets/ee4f2407-5420-49cb-84e0-f4201efcc0a8" width="400" alt="FFT after implementing the damper">
+        <br>
+        <em>FFT after implementing the damper</em>
+    </a>
+</div>
+
+
+2. **After Shock Absorber Implementation:**
+   - This video demonstrates the system with the shock absorber installed, showing a significant reduction in vibrations and rotation.
+
+   <div align="center">
+    <a href="URL_TO_VIDEO">
+        <img src="https://github.com/user-attachments/assets/ee4f2407-5420-49cb-84e0-f4201efcc0a8" width="400" alt="FFT after implementing the damper">
+        <br>
+        <em>FFT after implementing the damper</em>
+    </a>
+</div>
+
+
+### FFT Analysis
+
+- **FFT Before Implementation:**
+  - The FFT analysis before implementing the shock absorber shows higher amplitude peaks at natural frequencies.
+
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/7fdcecaf-d3b9-4336-8294-1be44d645254" width="400" alt="FFT before implementing the damper">
+    <br>
+    <em>FFT before implementing the damper</em>
+</div>
+
+- **FFT After Implementation:**
+  - After the shock absorber installation, the FFT analysis displays a noticeable reduction in peak amplitudes.
+
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/ee4f2407-5420-49cb-84e0-f4201efcc0a8" width="400" alt="FFT after implementing the damper">
+    <br>
+    <em>FFT after implementing the damper</em>
+</div>
+
+This side-by-side comparison not only validates the design but also provides concrete evidence of the system's performance improvements.
+
+## Documents Related to the Project
+
+For a deeper understanding of our Vibration Damping System, detailed documentation is available. Below are the links to various documents that cover all aspects of the project:
+
+1. [Design Methodology Document](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/blob/main/Project%20Documents/Design_Methodology_Document_Vibration_Damping%20System_for_Machine_Tools.pdf) 
+2. [Comprehensive Design Document](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/blob/main/Project%20Documents/Design_Document_Vibration_Damping%20System_for_Machine_Tools.pdf) 
+
+Feel free to explore these resources to gain a comprehensive understanding of the project's scope and execution.
