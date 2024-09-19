@@ -106,6 +106,27 @@ This intuitive interface supports efficient data handling and simplifies the use
     </div>
 </div>
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/19c372fd-04b6-4320-bfaa-2f5cad3edcd4" width="300" alt="Screen for selecting the available COM port and baud rate.">
+  <img src="https://github.com/user-attachments/assets/b09d611a-c0bc-45be-a56a-b72548f90c7e" width="300" alt="Screen for controlling data collection.">
+  <br>
+  <em>Screen for selecting the available COM port and baud rate.</em> &nbsp; <em>Screen for controlling data collection.</em>
+</div>
+
+<div align="center">
+  <div style="display:inline-block; margin-right:20px;">
+    <img src="https://github.com/user-attachments/assets/19c372fd-04b6-4320-bfaa-2f5cad3edcd4" width="300" alt="Main Controller Unit">
+    <br>
+    <em>Main Controller Unit</em>
+  </div>
+  <div style="display:inline-block;">
+    <img src="https://github.com/user-attachments/assets/b09d611a-c0bc-45be-a56a-b72548f90c7e" width="300" alt="Screen for controlling data collection.">
+    <br>
+    <em>Screen for controlling data collection.</em>
+  </div>
+</div>
+
+
 
 The code can be found [here](https://github.com/AchiraHansindu/Vibration-Damping-System-for-Machine-Tools/tree/main/UI%20for%20Data%20Acquisition%20System).
 
